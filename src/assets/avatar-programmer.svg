@@ -1,0 +1,55 @@
+<svg width="720" height="720" viewBox="0 0 720 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="138" y1="102" x2="584" y2="620" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7DD3FC"/>
+      <stop offset="0.52" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#F9A8D4"/>
+    </linearGradient>
+    <linearGradient id="screenGradient" x1="317" y1="407" x2="469" y2="548" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1F3B68"/>
+      <stop offset="1" stop-color="#132237"/>
+    </linearGradient>
+    <linearGradient id="shirtGradient" x1="232" y1="381" x2="485" y2="619" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#E2E8F0"/>
+    </linearGradient>
+    <linearGradient id="hairGradient" x1="238" y1="194" x2="460" y2="396" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1F2937"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <filter id="softShadow" x="54" y="39" width="612" height="642" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="18"/>
+      <feGaussianBlur stdDeviation="28"/>
+      <feComposite in2="hardAlpha" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.192157 0 0 0 0 0.223529 0 0 0 0 0.305882 0 0 0 0.18 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_2"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_2" result="shape"/>
+    </filter>
+  </defs>
+  <rect x="100" y="86" width="520" height="548" rx="84" fill="url(#bgGradient)"/>
+  <g filter="url(#softShadow)">
+    <path d="M248.145 396.302C272.846 377.408 307.901 368 359.998 368C412.094 368 447.149 377.408 471.85 396.302C513.326 428.026 533.151 492.506 532 590H188C186.844 492.506 206.669 428.026 248.145 396.302Z" fill="url(#shirtGradient)"/>
+    <path d="M257 540C280.374 520.845 313.707 511 360 511C406.293 511 439.626 520.845 463 540" stroke="#CBD5E1" stroke-width="8" stroke-linecap="round"/>
+    <path d="M313 186C339.631 165.233 380.369 165.233 407 186L431.61 205.198C454.206 222.825 467.359 249.831 467.359 278.491V292.154C467.359 355.359 416.115 406.603 352.91 406.603H366.09C302.885 406.603 251.641 355.359 251.641 292.154V278.491C251.641 249.831 264.794 222.825 287.39 205.198L313 186Z" fill="#F9D8C4"/>
+    <path d="M286 279C286 239.801 317.801 208 357 208H363C402.199 208 434 239.801 434 279V289C434 328.199 402.199 360 363 360H357C317.801 360 286 328.199 286 289V279Z" fill="#F9D8C4"/>
+    <path d="M357.929 163C410.412 163 454.689 198.025 468.726 245.979C471.149 254.258 467.764 263.109 460.572 267.915L438.066 282.961C426.482 290.706 410.881 288.245 402.267 277.292L389.824 261.469C378.988 247.692 358.42 244.509 343.779 254.178L300.533 282.737C289.094 290.295 273.727 288.096 264.84 277.729L252.235 263.024C247.46 257.454 245.77 249.896 247.71 242.812C260.792 195.055 305.246 163 357.929 163Z" fill="url(#hairGradient)"/>
+    <path d="M282.202 284C269.387 262.439 266.906 231.894 282.614 205.063C298.658 177.656 328.428 160 360.189 160C391.95 160 421.72 177.656 437.764 205.063C453.472 231.894 450.991 262.439 438.176 284L421.245 255.911C413.986 243.87 399.874 237.88 386.055 240.895L337.341 251.523C327.554 253.658 318.757 259.027 312.365 266.819L282.202 284Z" fill="url(#hairGradient)"/>
+    <path d="M318 310C324.075 310 329 305.075 329 299C329 292.925 324.075 288 318 288C311.925 288 307 292.925 307 299C307 305.075 311.925 310 318 310Z" fill="#0F172A"/>
+    <path d="M402 310C408.075 310 413 305.075 413 299C413 292.925 408.075 288 402 288C395.925 288 391 292.925 391 299C391 305.075 395.925 310 402 310Z" fill="#0F172A"/>
+    <path d="M341 333C352.139 343.836 369.861 343.836 381 333" stroke="#E47B72" stroke-width="7" stroke-linecap="round"/>
+    <path d="M278 415C305.354 400.994 332.687 394 360 394C387.313 394 414.646 400.994 442 415" stroke="#CBD5E1" stroke-width="8" stroke-linecap="round"/>
+    <rect x="251" y="439" width="219" height="130" rx="28" fill="url(#screenGradient)"/>
+    <rect x="251" y="439" width="219" height="130" rx="28" stroke="rgba(255,255,255,0.18)" stroke-width="4"/>
+    <path d="M286 478H360" stroke="#7DD3FC" stroke-width="10" stroke-linecap="round"/>
+    <path d="M286 511H390" stroke="#38BDF8" stroke-width="10" stroke-linecap="round" opacity="0.78"/>
+    <path d="M390 478H433" stroke="#F9A8D4" stroke-width="10" stroke-linecap="round"/>
+    <path d="M286 544H346" stroke="#A78BFA" stroke-width="10" stroke-linecap="round" opacity="0.88"/>
+    <path d="M433 511L414 529" stroke="#C4B5FD" stroke-width="9" stroke-linecap="round"/>
+    <path d="M414 511L433 529" stroke="#C4B5FD" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="493" cy="182" r="30" fill="white" fill-opacity="0.18"/>
+    <circle cx="517" cy="226" r="12" fill="white" fill-opacity="0.28"/>
+    <circle cx="228" cy="182" r="22" fill="white" fill-opacity="0.2"/>
+  </g>
+</svg>
