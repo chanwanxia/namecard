@@ -15,7 +15,6 @@ function App() {
       <section className="namecard-card">
         <div className="card-main">
           <div className="hero-copy">
-            <p className="eyebrow">Digital Name Card</p>
             <h1>{profile.name}</h1>
             <p className="hero-title">{profile.title}</p>
             <p className="hero-description">
